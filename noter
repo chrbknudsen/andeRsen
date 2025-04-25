@@ -9,6 +9,11 @@ Og denne oversættelse eller fortolkning er fra et tidspunkt.
 Det betyder også at vi kan have mere end en tekst på samme sprog
 Teksten har et antal afsnit.
 Disse afsnit er nummereret
+Det er en bestemt edition, eller udgave. Som så tilfældigvis har
+et sprog, etc. Og teksterne ligger så i den.
+På den måde kommer vi uden om udfordringen med flere udgaver på 
+samme sprog.
+
 
 Er der andet vi har?
 Der er den der klassifikation.
@@ -18,5 +23,23 @@ Så vi giver eventyret et nummer. Det må gerne være i numerisk rækkefølge.
 Så hans første eventyr er nr. 1 etc.
 
 nummeret knytter sig entydigt til en udgivelsesdato.
+
+Men måske man bare skulle gå i gang!
+
+Vi skal bruge en liste over eventyrene. De skal have et id.
+De er oprindeligt skrevet/udgivet på et bestemt tidspunkt.
+
+Navnene skal da muligvis ud i en separat tabel, men lad os
+starte med at have dem med i denne tabel.
+
+Så.
+
+ID            faktor
+title         tekst
+publication   dato
+
+Det er tydeligvis nødvendigt at have en dato der blot er 
+en måned. Hvad er best practice for det?
+
 
 
