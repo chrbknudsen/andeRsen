@@ -1,0 +1,11 @@
+Package: andeRsen
+Type: Package
+Title: HC Andersen Fairy Tales
+Version: 0.1.0
+Authors@R: person("Christian", "Knudsen", email = "cbk@kb.dk", role = c("aut", "cre"))
+Description: Provides HC Andersen's fairy tales in multiple languages.
+    The tales are bundled as an RDS file and can be loaded with
+    `load_eventyr_texts()`.
+License: MIT
+Encoding: UTF-8
+LazyData: true
